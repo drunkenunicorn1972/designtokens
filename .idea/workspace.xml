@@ -4,8 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16748be-91d8-4f26-a75a-0cf7e7352b7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b16748be-91d8-4f26-a75a-0cf7e7352b7e" name="Changes" comment="Updated Readme">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/base/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20250614130757.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20250614133358.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/HomePageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/EmailVerifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home_page/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/confirmation_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/.env.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/designtokens.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/designtokens.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/asset_mapper.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/asset_mapper.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +177,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/sass-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -161,10 +192,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/Users/vincentbourgonje/Develop/php/designtokens",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -178,11 +210,13 @@
     <attachedChunks>
       <set>
         <option value="bundled-php-predefined-a98d8de5180a-c5828cf854d9-com.jetbrains.php.sharedIndexes-PS-251.25410.148" />
+        <option value="php-doctrine_collections-88dc7a6578bb-1b7250da" />
         <option value="php-doctrine_doctrine_bundle-88dc7a6578bb-ee2bc751" />
         <option value="php-doctrine_orm-88dc7a6578bb-3387f32f" />
         <option value="php-nikic_php_parser-88dc7a6578bb-673e2e13" />
         <option value="php-phar_io_version-88dc7a6578bb-a5205a86" />
         <option value="php-phpdocumentor_reflection_docblock-88dc7a6578bb-0f8c8fbd" />
+        <option value="php-phpstan_phpdoc_parser-88dc7a6578bb-b65b1287" />
         <option value="php-phpunit_php_code_coverage-88dc7a6578bb-4f4cabdc" />
         <option value="php-phpunit_phpunit-88dc7a6578bb-6084b743" />
         <option value="php-sebastian_comparator-88dc7a6578bb-5f59a757" />
@@ -200,8 +234,17 @@
       <option name="presentableId" value="Default" />
       <updated>1749896955252</updated>
       <workItem from="1749896956365" duration="1931000" />
-      <workItem from="1749900688974" duration="17000" />
+      <workItem from="1749900688974" duration="7310000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Readme">
+      <option name="closed" value="true" />
+      <created>1749900753300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749900753300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,5 +260,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme" />
   </component>
 </project>
